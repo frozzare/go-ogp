@@ -1,4 +1,4 @@
-package og
+package ogp
 
 import (
   "testing"
