@@ -28,9 +28,7 @@ func Fetch (url string) map[string]interface{} {
   list := make(map[string]interface{})
 
   for i := range matches {
-    key := matches[i][1]
-    value := matches[i][2]
-    list[key] = value
+    list[matches[i][1]] = matches[i][2]
   }
 
   return list
