@@ -8,6 +8,7 @@ import (
   "fmt"
 )
 
+// Fetch all Open Graph meta tags and return a list
 func Fetch (url string) map[string]interface{} {
   res, err := http.Get(url)
 
@@ -34,6 +35,7 @@ func Fetch (url string) map[string]interface{} {
   return list
 }
 
+// Print out all Open Graph meta tags in the terminal
 func Print (url string) {
   list := Fetch(url)
 
