@@ -1,4 +1,4 @@
-# go-ogp
+# go-ogp [![Build Status](https://travis-ci.org/frozzare/go-ogp.svg?branch=master)](https://travis-ci.org/frozzare/go-ogp)
 
  Fetch [Open Graph protocol](http://ogp.me/) meta tags.
 
