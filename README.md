@@ -25,4 +25,4 @@ ogp.Print("http://ogp.me")
 
 # License
 
- MIT
+ MIT © [Fredrik Forsmo](https://github.com/frozzare)
