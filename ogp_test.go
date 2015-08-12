@@ -1,8 +1,9 @@
 package ogp
 
 import (
-	"github.com/bmizerany/assert"
 	"testing"
+
+	"github.com/frozzare/go-assert"
 )
 
 func TestFetch(t *testing.T) {

@@ -7,5 +7,5 @@ go:
 
 script:
  - go get -d -v ./...
- - go get github.com/bmizerany/assert
+ - go get github.com/frozzare/go-assert
  - go test -v ./...
